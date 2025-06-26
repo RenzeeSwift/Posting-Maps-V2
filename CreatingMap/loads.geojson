@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-121.261, 37.7902],
+          [-84.3573, 33.5638]
+        ]
+      },
+      "properties": {
+        "Reference_ID": "ABC123",
+        "Commodity": "Empty Trailer",
+        "Pickup Earliest*": "2025-06-09",
+        "Pickup Latest*": "2025-06-27",
+        "bookingUrl": "https://yourdomain.com/book/ABC123"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-87.6298, 41.8781],
+          [-95.3698, 29.7604]
+        ]
+      },
+      "properties": {
+        "Reference_ID": "XYZ789",
+        "Commodity": "Steel Coils",
+        "Pickup Earliest*": "2025-06-15",
+        "Pickup Latest*": "2025-06-20",
+        "bookingUrl": "https://yourdomain.com/book/XYZ789"
+      }
+    }
+  ]
+}
